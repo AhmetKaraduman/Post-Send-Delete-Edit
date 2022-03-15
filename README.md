@@ -14,7 +14,7 @@ using fetch GET, POST, PUT and DELETE request.
 
 #
 
-As you can found documantation from [GitHub Repo](https://github.com/typicode/json-server) for json-server
+As you can found documentation from [GitHub Repo](https://github.com/typicode/json-server) for json-server
 
 - First of all
 
@@ -34,14 +34,14 @@ npm i
 "scripts": {"json-server": "json-server --watch dataBase.json"}
 ```
 
-- after these basic configuration
+- after these basic configurations
 
 ```
 npm run json-server
 ```
 
 Your database is ready.
-Generally it host, localhost:3000 like;
+Generally it hosts, localhost:3000 like;
 
 #
 
