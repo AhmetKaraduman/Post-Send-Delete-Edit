@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+	background-color: #fff;
+	font-family: "Hubballi", sans-serif;
+}
+
+form {
+	width: 400px;
+	height: 200px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.line {
+	height: 1px;
+	width: 90%;
+	background-color: #444;
+	margin: 0 auto;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color: transparent;
+	letter-spacing: 0.8px;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+	font-family: "Hubballi", sans-serif;
+	margin-top: 10px;
+	background-color: transparent;
+	border: none;
+	height: 60%;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+form .btn {
+	color: #444;
+	margin-left: auto;
+	transition: all 0.3s ease-in-out;
+}
+
+.hide {
+	transform: translateY(40px);
+	opacity: 0;
+}
+
+.edit-mode {
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+	background-color: #f2f2f2 !important;
+	transform: translateY(40px);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+
+.edit-mode.show {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.post {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	margin-top: 20px;
+	z-index: -2;
+}
+
+.title {
+	text-align: center;
+	width: 100%;
+	background-image: linear-gradient(to bottom, hsl(240, 100%, 20%), #444);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 3px solid #999;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.tools {
+	background-color: transparent;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+.btn {
+	display: flex;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.body {
+	width: 100%;
+	padding: 15px 30px;
+	background-image: linear-gradient(to top, hsl(238, 40%, 60%), #444);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}

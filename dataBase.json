@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "This Is First Title",
+      "body": "This is first body",
+      "id": 1
+    },
+    {
+      "title": "This Is Second Title",
+      "body": "This is second body",
+      "id": 2
+    },
+    {
+      "title": "And Another Test Title",
+      "body": "Another test body",
+      "id": 3
+    }
+  ]
+}

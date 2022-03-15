@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<title>JSON Server Project</title>
+	</head>
+	<body>
+		<form>
+			<input
+				type="text"
+				id="title"
+				placeholder="What about..."
+				maxlength="40"
+			/>
+			<div class="line"></div>
+			<textarea
+				id="body"
+				placeholder="Say something..."
+				maxlength="100"
+			></textarea>
+			<button class="btn" id="sendPost">
+				<i class="material-icons">send</i>
+			</button>
+			<button class="btn edit-mode" id="edit-mode">
+				<i class="material-icons">edit</i>
+			</button>
+		</form>
+		<div class="posts"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
